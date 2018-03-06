@@ -10,7 +10,7 @@ using MvcMovie.Models;
 
 namespace MvcMovie.Controllers
 {
-    [Authorize(Users = "admin@gmail.com")]
+    //[Authorize(Users = "admin@gmail.com")]
     public class StoreManagerController : Controller
     {
         private MovieDBContext db = new MovieDBContext();
